@@ -1,0 +1,203 @@
+/* reset css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: #222;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+button{
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+/* theme css */
+
+/* nav*/
+  
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 10px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .nav-links a:hover {
+    background-color: #555;
+  }
+  
+  
+
+/* game */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game {
+  width: 80rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.player-score,
+.computer-score {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.player,
+.computer {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.player img,
+.computer img {
+  width: 100px;
+}
+
+.winner {
+  margin-bottom: 20px;
+}
+
+.winner h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+}
+
+.draw {
+  background-color: #ccc;
+}
+
+.win {
+  background-color: #4caf50;
+}
+
+.lose {
+  background-color: #f44336;
+}
+
+.final-win {
+  background-color: #4caf50;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  padding: 20px;
+}
+
+.final-lose {
+  background-color: #f44336;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  padding: 20px;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0; 
+}
+.choices img {
+  width: 20rem;
+  margin: 0 3rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.player-choice {
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.player-choice:hover {
+  transform: scale(1.1);
+}
+
+.reset {
+  background-color: #eee;
+  border: none;
+  color: #777;
+  font-size: 16px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reset:hover {
+  background-color: #ddd;
+}
